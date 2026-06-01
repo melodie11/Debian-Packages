@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Joyce MARKOLL
+# This file is distributed under the GPLv3 license.
+# Joyce MARKOLL <contact@orditux.org>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: welcome-butterfly 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-31 21:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: welcome-butterfly.sh:28
+msgid "Welcome to AnduinOS Butterfly"
+msgstr ""
+
+#: welcome-butterfly.sh:30
+msgid "Close"
+msgstr ""
+
+#: welcome-butterfly.sh:31
+msgid ""
+"This system includes the PPA provided and maintained by kelebek333, which "
+"makes the following applications available :"
+msgstr ""
+
+#: welcome-butterfly.sh:32
+msgid "share files over a local network."
+msgstr ""
+
+#: welcome-butterfly.sh:33
+msgid "create a shortcut on the desktop to a website of your choice."
+msgstr ""
+
+#: welcome-butterfly.sh:34
+msgid "IPTV player, to watch television channels."
+msgstr ""
+
+#: welcome-butterfly.sh:35
+msgid "Installing additional applications"
+msgstr ""
+
+#: welcome-butterfly.sh:36
+msgid "You can install additional applications from"
+msgstr ""
+
+#: welcome-butterfly.sh:36
+msgid "or from the"
+msgstr ""
+
+#: welcome-butterfly.sh:36
+msgid "Software Center"
+msgstr ""
+
+#: welcome-butterfly.sh:37
+msgid "Playing commercial DVDs"
+msgstr ""
+
+#: welcome-butterfly.sh:38
+msgid ""
+"Commercial DVDs are often encrypted with DRM (Digital Rights Management). To "
+"enable their playback, click the three stacked rectangles icon of the panel, "
+"then search for"
+msgstr ""
+
+#: welcome-butterfly.sh:38
+msgid "Install DVD Support"
+msgstr ""
+
+#: welcome-butterfly.sh:44
+msgid "Do you want to show this message at startup?"
+msgstr ""
+
+#: welcome-butterfly.sh:45
+msgid "No, don't show again"
+msgstr ""
+
+#: welcome-butterfly.sh:46
+msgid "Show again next time"
+msgstr ""

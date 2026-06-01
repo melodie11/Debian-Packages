@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+
+<policyconfig>
+
+  <vendor>AnduinOS Butterfly</vendor>
+  <vendor_url>https://github.com/melodie11/anduinos-butterfly</vendor_url>
+  <icon_name>preferences-system-power</icon_name>
+
+  <action id="butterfly.toggle-power">
+    <description>Toggle Butterfly power management fix</description>
+    <message>Privileges are required to toggle the Butterfly power management fix.</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/toggle-power-butterfly.sh</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=Welcome to AnduinOS Butterfly
+Name[fr]=Bienvenue sur AnduinOS Butterfly
+Name[de]=Willkommen bei AnduinOS Butterfly
+Name[es]=Bienvenido a AnduinOS Butterfly
+Name[it]=Benvenuto in AnduinOS Butterfly
+Name[pt]=Bem-vindo ao AnduinOS Butterfly
+Name[nl]=Welkom bij AnduinOS Butterfly
+Name[zh_CN]=欢迎使用 AnduinOS Butterfly
+Comment=Displays a welcome message at login
+Comment[fr]=Affiche un message de bienvenue à la connexion
+Comment[de]=Zeigt eine Willkommensnachricht beim Login an
+Comment[es]=Muestra un mensaje de bienvenida al iniciar sesión
+Comment[it]=Mostra un messaggio di benvenuto al login
+Comment[pt]=Exibe uma mensagem de boas-vindas ao login
+Comment[nl]=Toont een welkomstbericht bij het inloggen
+Comment[zh_CN]=登录时显示欢迎消息
+Exec=welcome-butterfly.sh --autostart
+X-GNOME-Autostart-enabled=true
+

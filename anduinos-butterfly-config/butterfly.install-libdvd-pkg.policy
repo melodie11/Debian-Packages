@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+
+<policyconfig>
+
+  <vendor>AnduinOS Butterfly</vendor>
+  <vendor_url>https://github.com/melodie11/anduinos-butterfly</vendor_url>
+  <icon_name>media-optical</icon_name>
+
+  <action id="butterfly.install-libdvd-pkg">
+    <description>Install libdvd-pkg and build libdvdcss2</description>
+    <message>Privileges are required to install libdvd-pkg.</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/install-libdvd-pkg-butterfly.sh</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=Fix Keyboard Layout
+Name[fr]=Correction de la disposition du clavier
+Name[de]=Tastaturlayout korrigieren
+Name[es]=Corregir distribución del teclado
+Name[it]=Correggi layout tastiera
+Name[pt]=Corrigir disposição do teclado
+Name[nl]=Toetsenbordindeling corrigeren
+Name[zh_CN]=修正键盘布局
+Comment=Configures the keyboard layout to French AZERTY on AnduinOS Butterfly
+Comment[fr]=Configure la disposition du clavier en AZERTY français sur AnduinOS Butterfly
+Comment[de]=Konfiguriert das Tastaturlayout auf Französisch AZERTY auf AnduinOS Butterfly
+Comment[es]=Configura la distribución del teclado en AZERTY francés en AnduinOS Butterfly
+Comment[it]=Configura il layout tastiera in AZERTY francese su AnduinOS Butterfly
+Comment[pt]=Configura a disposição do teclado em AZERTY francês no AnduinOS Butterfly
+Comment[nl]=Configureert de toetsenbordindeling naar Frans AZERTY op AnduinOS Butterfly
+Comment[zh_CN]=将 AnduinOS Butterfly 的键盘布局配置为法语 AZERTY
+Exec=fix-keyboard-butterfly.sh
+X-GNOME-Autostart-enabled=true
+

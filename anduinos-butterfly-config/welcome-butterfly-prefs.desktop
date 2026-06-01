@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Name=AnduinOS Butterfly Welcome
+Name[fr]=Bienvenue AnduinOS Butterfly
+Name[de]=AnduinOS Butterfly Willkommen
+Name[es]=Bienvenida AnduinOS Butterfly
+Name[it]=Benvenuto AnduinOS Butterfly
+Name[pt]=Boas-vindas AnduinOS Butterfly
+Name[nl]=AnduinOS Butterfly Welkom
+Name[zh_CN]=AnduinOS Butterfly 欢迎
+Comment=Show the AnduinOS Butterfly welcome message
+Comment[fr]=Afficher le message de bienvenue AnduinOS Butterfly
+Comment[de]=AnduinOS Butterfly Willkommensnachricht anzeigen
+Comment[es]=Mostrar el mensaje de bienvenida de AnduinOS Butterfly
+Comment[it]=Mostra il messaggio di benvenuto di AnduinOS Butterfly
+Comment[pt]=Mostrar a mensagem de boas-vindas do AnduinOS Butterfly
+Comment[nl]=Het welkomstbericht van AnduinOS Butterfly tonen
+Comment[zh_CN]=显示 AnduinOS Butterfly 欢迎消息
+Exec=welcome-butterfly.sh
+Categories=Settings;
+Icon=dialog-information
+
