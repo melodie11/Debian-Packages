@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Name=Install DVD Support
+Name[fr]=Installer le support DVD
+Name[de]=DVD-Unterstützung installieren
+Name[es]=Instalar soporte de DVD
+Name[it]=Installa supporto DVD
+Name[pt]=Instalar suporte a DVD
+Name[nl]=DVD-ondersteuning installeren
+Name[zh_CN]=安装 DVD 支持
+Comment=Enables reading DVDs encrypted with DRM
+Comment[fr]=Permet la lecture des DVD chiffrés avec DRM
+Comment[de]=Ermöglicht das Lesen von DRM-verschlüsselten DVDs
+Comment[es]=Permite leer DVDs cifrados con DRM
+Comment[it]=Consente la lettura di DVD cifrati con DRM
+Comment[pt]=Permite a leitura de DVDs cifrados com DRM
+Comment[nl]=Maakt het lezen van met DRM versleutelde dvd's mogelijk
+Comment[zh_CN]=启用播放受 DRM 加密的 DVD
+Exec=pkexec install-libdvd-pkg-butterfly.sh
+Categories=AudioVideo;
+Icon=media-optical
+

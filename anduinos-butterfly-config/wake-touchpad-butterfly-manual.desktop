@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Name=Wake Touchpad
+Name[fr]=Réactiver le pavé tactile
+Name[de]=Touchpad aktivieren
+Name[es]=Activar panel táctil
+Name[it]=Attiva touchpad
+Name[pt]=Ativar touchpad
+Name[nl]=Touchpad activeren
+Name[zh_CN]=启用触摸板
+Comment=Restores touchpad functionality after resume from suspend
+Comment[fr]=Restaure le pavé tactile après une mise en veille
+Comment[de]=Stellt die Touchpad-Funktion nach dem Aufwachen wieder her
+Comment[es]=Restaura la función del panel táctil tras la suspensión
+Comment[it]=Ripristina la funzionalità del touchpad dopo la sospensione
+Comment[pt]=Restaura a funcionalidade do touchpad após suspensão
+Comment[nl]=Herstelt touchpadfunctionaliteit na slaapstand
+Comment[zh_CN]=从睡眠恢复后恢复触摸板功能
+Exec=pkexec wake-touchpad-butterfly.sh
+Categories=System;
+Icon=input-touchpad
+

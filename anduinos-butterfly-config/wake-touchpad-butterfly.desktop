@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Wake Touchpad (Autostart)
+Exec=/usr/local/bin/wake-touchpad-butterfly.sh
+Icon=input-touchpad
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+
+

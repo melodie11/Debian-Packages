@@ -1,0 +1,74 @@
+# AnduinOS Butterfly - Post-installation configuration package
+
+AnduinOS Butterfly is a modified version of AnduinOS (Ubuntu based), which is
+designed to ease the transition from Windows 11. The Butterfly version comes
+with an additional PPA from kelebek333 and several improvements for the comfort of use.
+
+This package installs and configures a set of scripts and desktop launchers
+to improve the out-of-the-box experience on AnduinOS Butterfly.
+
+## Installed files
+
+### Scripts — /usr/local/bin/
+
+| Script | Role |
+|--------|------|
+| fix-power-butterfly.sh | Disables automatic sleep and screen lock at each login |
+| fix-keyboard-butterfly-fr_FR.sh | Fixes French keyboard layout (fr_FR) at each login |
+| wake-touchpad-butterfly.sh | Restores touchpad after suspend |
+| install-libdvd-dvd-butterfly.sh | Improved libdvd-pkg installation assistant |
+| setup-media-handling-butterfly.sh | Configures removable multimedia handling via dconf (run at install) |
+| welcome-butterfly.sh | First-boot welcome script |
+| toggle-power-butterfly.sh | Toggles the power management fix on or off |
+| general-cleaning-butterfly.sh | Deep cleaning tool — removes junk files and vacuums browser databases. Run manually and deliberately, including before ISO rebuild. |
+| install-kelebek333-butterfly.sh | Installs the PPA, and the packages Warpinator, Webapp-Manager and Hypnotix alltogether |
+
+### Autostart — /etc/xdg/autostart/
+
+These desktop files are launched automatically at each GNOME session:
+
+- fix-power-butterfly.desktop
+- fix-keyboard-butterfly-fr_FR.desktop
+- wake-touchpad-butterfly.desktop
+- welcome-butterfly.desktop
+
+### Applications launchers in /usr/share/applications/
+
+These entries appear in the GNOME application menu:
+
+- install-libdvd-pkg-butterfly.desktop
+- wake-touchpad-butterfly-manual.desktop
+- welcome-butterfly-prefs.desktop
+- toggle-power-butterfly.desktop
+
+### System in /usr/share/polkit-1/actions/
+
+- butterfly.toggle-power.policy : it allows toggle-power-butterfly to run
+without a password prompt via pkexec for the active user, while requiring
+administrator authentication for inactive sessions or remote access.
+- butterfly.install-libdvd-pkg.policy : it allows install-libdvdcss2-butterfly
+to be launched via pkexec with administrator authentication.
+
+### The welcome script French translation
+- welcome-butterfly_fr.mo to /usr/share/locale/fr/LC_MESSAGES/welcome-butterfly.mo
+
+### The install-libdvd-pkg-butterfly script French translation
+- install-libdvd-pkg-butterfly_fr.mo to /usr/share/locale/fr/LC_MESSAGES/install-libdvd-pkg-butterfly.mo
+
+## Additional software
+
+This package provides a script to install the kelebek333 PPA and 3 packages,
+announced by the welcome script:
+
+  ppa:kelebek333/mint-tools
+
+This PPA provides among else:
+- Warpinator: file sharing over local network (compatible with Winpinator on Windows)
+- Webapp-Manager: to create desktop launchers for websites
+- Hypnotix: IPTV player
+
+Reference: https://launchpad.net/~kelebek333/+archive/ubuntu/mint-tools
+
+## Source
+
+https://github.com/melodie11/debian-packages

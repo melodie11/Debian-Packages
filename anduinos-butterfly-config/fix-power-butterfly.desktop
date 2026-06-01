@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=Fix Power Settings
+Name[fr]=Correction des paramètres d'énergie
+Name[de]=Energieeinstellungen korrigieren
+Name[es]=Corregir configuración de energía
+Name[it]=Correggi impostazioni energetiche
+Name[pt]=Corrigir configurações de energia
+Name[nl]=Energie-instellingen corrigeren
+Name[zh_CN]=修正电源设置
+Comment=Configures power management settings on AnduinOS Butterfly
+Comment[fr]=Configure la gestion de l'énergie sur AnduinOS Butterfly
+Comment[de]=Konfiguriert die Energieverwaltung auf AnduinOS Butterfly
+Comment[es]=Configura la gestión de energía en AnduinOS Butterfly
+Comment[it]=Configura la gestione energetica su AnduinOS Butterfly
+Comment[pt]=Configura o gerenciamento de energia no AnduinOS Butterfly
+Comment[nl]=Configureert energiebeheer op AnduinOS Butterfly
+Comment[zh_CN]=配置 AnduinOS Butterfly 的电源管理设置
+Exec=fix-power-butterfly.sh
+X-GNOME-Autostart-enabled=true
+

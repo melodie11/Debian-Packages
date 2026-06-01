@@ -1,0 +1,26 @@
+[Desktop Entry]
+Type=Application
+Name=Butterfly – Power Management Toggle
+Name[fr]=Butterfly – Activer/Désactiver la gestion de l'énergie
+Name[de]=Butterfly – Energieverwaltung umschalten
+Name[es]=Butterfly – Alternar gestión de energía
+Name[it]=Butterfly – Attiva/Disattiva gestione energetica
+Name[pt]=Butterfly – Alternar gestão de energia
+Name[nl]=Butterfly – Energiebeheer in/uitschakelen
+Name[zh_CN]=Butterfly – 电源管理切换
+Name[zh_TW]=Butterfly – 電源管理切換
+Comment=Enable or disable the Butterfly power management fix
+Comment[fr]=Activer ou désactiver le correctif de gestion de l'énergie Butterfly
+Comment[de]=Butterfly-Energieverwaltungskorrektur aktivieren oder deaktivieren
+Comment[es]=Activar o desactivar la corrección de gestión de energía de Butterfly
+Comment[it]=Attivare o disattivare la correzione della gestione energetica di Butterfly
+Comment[pt]=Ativar ou desativar a correção de gestão de energia do Butterfly
+Comment[nl]=De Butterfly-energiebeheercorrectie in- of uitschakelen
+Comment[zh_CN]=启用或禁用 Butterfly 电源管理修复
+Comment[zh_TW]=啟用或停用 Butterfly 電源管理修復
+Exec=pkexec /usr/local/bin/toggle-power-butterfly.sh
+Icon=preferences-system-power
+Categories=System;Settings;
+Terminal=false
+NoDisplay=false
+

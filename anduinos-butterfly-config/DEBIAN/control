@@ -1,0 +1,25 @@
+Package: anduinos-butterfly-config
+Version: 0.1.0
+Architecture: all
+Maintainer: Joyce MARKOLL <contact@orditux.fr>
+Installed-Size: 72
+Depends: acpi, acpid, zenity
+Recommends: dconf-editor
+Suggests: gnome-tweaks
+Section: misc
+Priority: optional
+Homepage: https://github.com/melodie11/debian-packages
+Description: Post-installation configuration for AnduinOS Butterfly Fr.
+ .
+ AnduinOS Butterfly Fr is a French-language remix of AnduinOS (Ubuntu based)
+ designed to ease the transition from Windows 11, and to bring
+ several additional tweaks.
+ .
+ This package automatically installs and configures:
+  - Power management fix (suspend/wake)
+  - French keyboard layout fix (fr_FR)
+  - Touchpad wake-up after suspend
+  - libdvd-pkg improved installation assistant
+  - Removable multimedia handling configuration (dconf)
+  - First-boot welcome script
+

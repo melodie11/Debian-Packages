@@ -1,0 +1,57 @@
+#!/bin/bash
+# postinst — AnduinOS Butterfly Fr Config
+# Automatically run after package installation.
+set -euo pipefail
+
+SCRIPT_NAME="anduinos-butterfly-config"
+
+case "$1" in
+    configure)
+
+        #1. Make scripts executable 
+        chmod +x /usr/local/bin/fix-power-butterfly.sh
+        chmod +x /usr/local/bin/fix-keyboard-butterfly-fr_FR.sh
+        chmod +x /usr/local/bin/install-libdvd-pkg-butterfly.sh
+        chmod +x /usr/local/bin/wake-touchpad-butterfly.sh
+        chmod +x /usr/local/bin/setup-media-handling-butterfly.sh
+        chmod +x /usr/local/bin/welcome-butterfly.sh
+        chmod +x /usr/local/bin/install-kelebek333-butterfly.sh
+	chmod +x /usr/local/bin/toggle-power-butterfly.sh
+	chmod +x /usr/local/bin/general-cleaning-butterfly.sh
+
+        # 2. Configure media handling (dconf)
+        echo "[$SCRIPT_NAME] Configuring media handling..."
+        /usr/local/bin/setup-media-handling-butterfly.sh || {
+            echo "[$SCRIPT_NAME] WARNING: setup-media-handling-butterfly.sh returned an error." >&2
+        }
+
+        # 3. Reload systemd units
+        echo "[$SCRIPT_NAME] Reloading systemd..."
+        if [ -d /run/systemd/system ]; then
+            systemctl daemon-reload || true
+        fi
+
+        # 4. Enable and start acpid ─
+        echo "[$SCRIPT_NAME] Enabling acpid..."
+        if [ -d /run/systemd/system ]; then
+            systemctl enable acpid 2>/dev/null || true
+            systemctl start  acpid 2>/dev/null || true
+        fi
+
+        echo ""
+		echo "Please invoke install-kelebek333-butterfly.sh to install the PPA"
+		echo "and the 3 packages: Warpinator, Hypnotix and Webapp-Manager."
+		echo ""
+
+        ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unexpected argument: '$1'" >&2
+        exit 1
+        ;;
+esac
+
+exit 0
