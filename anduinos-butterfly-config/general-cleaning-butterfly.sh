@@ -136,13 +136,12 @@ done
 echo "========================================="
 
 # 2. Clean cached packages with apt
-echo "Cleaning cached packages with 'apt clean' and 'apt autoclean'..."
+echo "Cleaning cached packages with 'apt clean'..."
 read -p "Do you want to run APT cleanup? (y/n) " -n 1 -r
 echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     apt clean
-    apt autoclean
     rm -f /var/cache/apt/{pkgcache.bin,srcpkgcache.bin}
     echo "APT cleanup complete."
 else

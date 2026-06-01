@@ -1,0 +1,45 @@
+anduinos-butterfly-config/
+├── DEBIAN/
+│   ├── control
+│   ├── postinst
+│   └── md5sums (généré automatiquement)
+├── etc/
+│   └── xdg/
+│       └── autostart/
+│           ├── fix-power-butterfly.desktop
+│           ├── fix-keyboard-butterfly-fr_FR.desktop
+│           ├── wake-touchpad-butterfly.desktop
+│           └── welcome-butterfly.desktop
+└── usr/
+    ├── local/
+    │   └── bin/
+    │       ├── fix-power-butterfly.sh
+    │       ├── fix-keyboard-butterfly-fr_FR.sh
+    │       ├── fix-keyboard-butterfly-fr_FR.sh
+    │       ├── general-cleaning-butterfly.sh
+    │       ├── install-kelebek333-butterfly.sh
+    │       ├── install-libdvd-pkg-butterfly.sh
+    │       ├── setup-media-handling-butterfly.sh
+    │       ├── toggle-power-butterfly.sh
+    │       ├── wake-touchpad-butterfly.sh
+    │       └── welcome-butterfly.sh
+    └── share/
+        ├── applications/
+        │   ├── install-libdvd-pkg-butterfly.desktop
+        │   ├── toggle-power-butterfly.desktop
+        │   ├── wake-touchpad-butterfly-manual.desktop
+        │   └── welcome-butterfly-prefs.desktop
+        ├── doc/
+        │   └── butterfly-config/
+        │       ├── README
+        │       ├── copyright
+        │       └── changelog.gz
+        ├── locale/
+        │   └── fr/
+        │       └── LC_MESSAGES/
+        │           ├── install-libdvd-pkg-butterfly.mo
+        │           └── welcome-butterfly.mo
+        └── polkit-1/
+            └── actions/
+                ├── butterfly.install-libdvd-pkg.policy
+                └── butterfly.toggle-power.policy
