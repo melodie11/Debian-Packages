@@ -16,6 +16,6 @@ Comment[it]=Configura il layout tastiera in AZERTY francese su AnduinOS Butterfl
 Comment[pt]=Configura a disposição do teclado em AZERTY francês no AnduinOS Butterfly
 Comment[nl]=Configureert de toetsenbordindeling naar Frans AZERTY op AnduinOS Butterfly
 Comment[zh_CN]=将 AnduinOS Butterfly 的键盘布局配置为法语 AZERTY
-Exec=fix-keyboard-butterfly.sh
+Exec=fix-keyboard-butterfly-fr_FR.sh
 X-GNOME-Autostart-enabled=true
 
