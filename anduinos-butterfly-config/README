@@ -10,18 +10,17 @@ to improve the out-of-the-box experience on AnduinOS Butterfly.
 ## Installed files
 
 ### Scripts — /usr/local/bin/
-
-| Script | Role |
-|--------|------|
-| fix-power-butterfly.sh | Disables automatic sleep and screen lock at each login |
-| fix-keyboard-butterfly-fr_FR.sh | Fixes French keyboard layout (fr_FR) at each login |
-| wake-touchpad-butterfly.sh | Restores touchpad after suspend |
-| install-libdvd-dvd-butterfly.sh | Improved libdvd-pkg installation assistant |
-| setup-media-handling-butterfly.sh | Configures removable multimedia handling via dconf (run at install) |
-| welcome-butterfly.sh | First-boot welcome script |
-| toggle-power-butterfly.sh | Toggles the power management fix on or off |
-| general-cleaning-butterfly.sh | Deep cleaning tool — removes junk files and vacuums browser databases. Run manually and deliberately, including before ISO rebuild. |
-| install-kelebek333-butterfly.sh | Installs the PPA, and the packages Warpinator, Webapp-Manager and Hypnotix alltogether |
+| Script                            | Role                                                                   |
+|-----------------------------------|------------------------------------------------------------------------|
+| fix-power-butterfly.sh            | Disables automatic sleep and screen lock at each login                 |
+| fix-keyboard-butterfly-fr_FR.sh   | Fixes French keyboard layout (fr_FR) at each login                     |
+| wake-touchpad-butterfly.sh        | Restores touchpad after suspend                                        |
+| install-libdvd-dvd-butterfly.sh   | Improved libdvd-pkg installation assistant                             |
+| setup-media-handling-butterfly.sh | Configures removable multimedia handling via dconf (run at install)    |
+| welcome-butterfly.sh              | First-boot welcome script                                              |
+| toggle-power-butterfly.sh         | Toggles the power management fix on or off                             |
+| general-cleaning-butterfly.sh     | Deep cleaning tool: removes junk files, to be run manually             |
+| install-kelebek333-butterfly.sh   | Installs the PPA, and packages Warpinator  Webapp-Manager and Hypnotix |
 
 ### Autostart — /etc/xdg/autostart/
 
