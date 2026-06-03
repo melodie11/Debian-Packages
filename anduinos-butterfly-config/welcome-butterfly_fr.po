@@ -1,14 +1,13 @@
-# French translations for PACKAGE package.
-# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Joyce MARKOLL <contact@orditux.org>, 2026.
+# French translations for the welcome-butterfly script
+# Copyright (C) 2026 Joyce MARKOLL <contact@orditux.org>
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-31 21:57+0000\n"
-"PO-Revision-Date: 2026-05-31 22:12+0200\n"
+"PO-Revision-Date: 2026-06-03 07:28:51 +0200\n"
 "Last-Translator: Joyce MARKOLL <contact@orditux.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
