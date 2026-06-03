@@ -27,6 +27,10 @@ if [ "$1" = "--autostart" ] && [ -f "$FLAG" ]; then
 fi
 
 # Display the welcome message
+
+legal1=$(gettext "We invite you to verify the legality")
+legal2=$(gettext "of using libdvdcss2 in your country.")
+
 zenity --info \
     --title="$(gettext "Welcome to AnduinOS Butterfly")" \
     --width=600 \
@@ -38,7 +42,8 @@ zenity --info \
 <b>$(gettext "Installing additional applications")</b>\n\
 $(gettext "You can install additional applications from") <b>Synaptic</b> $(gettext "or from the") <b>$(gettext "Software Center")</b>.\n\n\
 <b>$(gettext "Playing commercial DVDs")</b>\n\
-$(gettext "Commercial DVDs are often encrypted with DRM (Digital Rights Management). To enable their playback, click the three stacked rectangles icon of the panel, then search for") <b>$(gettext "Install DVD Support")</b>.\n\$(gettext "You might need to check wether the use of libdvdcss2 is legal in your country.")""
+$(gettext "Commercial DVDs are often encrypted with DRM (Digital Rights Management). To enable their playback, click the three stacked rectangles icon of the panel, then search for") <b>$(gettext "Install DVD Support")</b>.\n\
+\n${legal1} ${legal2}"
 
 # Ask the user if they want to stop showing the message at startup
 zenity --question \
@@ -46,7 +51,7 @@ zenity --question \
     --width=400 \
     --text="$(gettext "Do you want to show this message at startup?")" \
 	--ok-label="$(gettext "No, don't show again")" \
-	--cancel-label="$(gettext "Show again next time")"
+	--cancel-label="$(gettext "Yes, show again")"
 
 # If the user chose to stop showing the message, create the flag file
 if [ $? = 0 ]; then

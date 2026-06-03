@@ -16,6 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 is already installed. Nothing to do."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
 msgid "libdvd-pkg installation"
 msgstr ""
 
@@ -39,8 +43,24 @@ msgstr ""
 msgid "Later"
 msgstr ""
 
+[200~#: install-libdvd-pkg-butterfly.sh
+msgid "The following required packages are missing:"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to install them now?"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Cancel"
+msgstr ""
+
 #: install-libdvd-pkg-butterfly.sh
 msgid "Installation in progress, please wait..."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installing missing dependencies, please wait..."
 msgstr ""
 
 #: install-libdvd-pkg-butterfly.sh

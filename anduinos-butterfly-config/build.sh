@@ -96,5 +96,5 @@ chmod 755 "$BUILD_DIR/DEBIAN/postinst"
 
 dpkg-deb --build "$BUILD_DIR" "${PACKAGE}_${VERSION}.deb"
 
-echo "[build] Done: ${PACKAGE}.deb
-"
+echo "[build] Done: ${PACKAGE}_${VERSION}.deb"
+

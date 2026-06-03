@@ -75,7 +75,11 @@ msgid "Install DVD Support"
 msgstr ""
 
 #: welcome-butterfly.sh:39
-msgid "You might need to check if the use of libdvdcss2 is legal in your country."
+msgid "You might need to check wether the use"
+msgstr ""
+
+#: welcome-butterfly.sh:40
+msgid "of libdvdcss2 is legal in your country."
 msgstr ""
 
 #: welcome-butterfly.sh:44
@@ -87,5 +91,6 @@ msgid "No, don't show again"
 msgstr ""
 
 #: welcome-butterfly.sh:46
-msgid "Show again next time"
+msgid "Yes, show again"
 msgstr ""
+

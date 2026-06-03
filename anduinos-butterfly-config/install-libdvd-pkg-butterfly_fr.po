@@ -17,12 +17,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 is already installed. Nothing to do."
+msgstr "libdvdcss2 est déjà installé. Rien à faire."
+
+#: install-libdvd-pkg-butterfly.sh
 msgid "libdvd-pkg installation"
 msgstr "Installation de libdvd-pkg"
 
 #: install-libdvd-pkg-butterfly.sh
 msgid "This program will install the libdvdcss2 library."
-msgstr "Ce programme installera la bibliothèque libdvdcss2)."
+msgstr "Ce programme installera la bibliothèque libdvdcss2."
 
 #: install-libdvd-pkg-butterfly.sh
 msgid "An active internet connection is required."
@@ -41,12 +45,28 @@ msgid "Later"
 msgstr "Plus tard"
 
 #: install-libdvd-pkg-butterfly.sh
+msgid "The following required packages are missing:"
+msgstr "Les paquets requis suivants sont manquants :"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to install them now?"
+msgstr "Voulez-vous les installer maintenant ?"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Cancel"
+msgstr "Annuler"
+
+#: install-libdvd-pkg-butterfly.sh
 msgid "Installation in progress, please wait..."
 msgstr "Installation en cours, veuillez patienter..."
 
 #: install-libdvd-pkg-butterfly.sh
 msgid "Configuring libdvdcss2, please wait..."
 msgstr "Configuration de libdvdcss2 en cours..."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installing missing dependencies, please wait..."
+msgstr "Installation des dépendances manquantes, veuillez patienter..."
 
 #: install-libdvd-pkg-butterfly.sh
 msgid "Installation complete"
