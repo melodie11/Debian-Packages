@@ -11,6 +11,8 @@
 
 set -euo pipefail
 
+umask 0022
+
 PACKAGE="anduinos-butterfly-config"
 BUILD_DIR="${PACKAGE}-build"
 SOURCE_DIR="$(cd "$(dirname "$0")" && pwd)"
