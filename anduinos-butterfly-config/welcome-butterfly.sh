@@ -38,7 +38,7 @@ zenity --info \
 <b>$(gettext "Installing additional applications")</b>\n\
 $(gettext "You can install additional applications from") <b>Synaptic</b> $(gettext "or from the") <b>$(gettext "Software Center")</b>.\n\n\
 <b>$(gettext "Playing commercial DVDs")</b>\n\
-$(gettext "Commercial DVDs are often encrypted with DRM (Digital Rights Management). To enable their playback, click the three stacked rectangles icon of the panel, then search for") <b>$(gettext "Install DVD Support")</b>."
+$(gettext "Commercial DVDs are often encrypted with DRM (Digital Rights Management). To enable their playback, click the three stacked rectangles icon of the panel, then search for") <b>$(gettext "Install DVD Support")</b>.\n\$(gettext "You might need to check wether the use of libdvdcss2 is legal in your country.")""
 
 # Ask the user if they want to stop showing the message at startup
 zenity --question \
