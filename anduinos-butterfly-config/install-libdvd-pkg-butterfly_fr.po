@@ -1,0 +1,97 @@
+# French translation for install-libdvd-pkg-butterfly
+# Copyright (C) 2026  Joyce MARKOLL <contact@orditux.org>
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: install-libdvd-pkg-butterfly 1.0\n"
+"Report-Msgid-Bugs-To: contact@orditux.org\n"
+"POT-Creation-Date: 2026-06-03 10:52:23 +0200\n"
+"PO-Revision-Date: 2026-06-03 10:52:23 +0200\n"
+"Last-Translator: Joyce MARKOLL <contact@orditux.org>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 is already installed. Nothing to do."
+msgstr "libdvdcss2 est déjà installé. Rien à faire."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvd-pkg installation"
+msgstr "Installation de libdvd-pkg"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "This program will install the libdvdcss2 library."
+msgstr "Ce programme installera la bibliothèque libdvdcss2."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "An active internet connection is required."
+msgstr "Une connexion internet fonctionnelle est nécessaire."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to continue?"
+msgstr "Voulez-vous continuer ?"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Install"
+msgstr "Installer"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Later"
+msgstr "Plus tard"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "The following required packages are missing:"
+msgstr "Les paquets requis suivants sont manquants :"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to install them now?"
+msgstr "Voulez-vous les installer maintenant ?"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Cancel"
+msgstr "Annuler"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation in progress, please wait..."
+msgstr "Installation en cours, veuillez patienter..."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Configuring libdvdcss2, please wait..."
+msgstr "Configuration de libdvdcss2 en cours..."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installing missing dependencies, please wait..."
+msgstr "Installation des dépendances manquantes, veuillez patienter..."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation complete"
+msgstr "Installation terminée"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 has been successfully installed."
+msgstr "libdvdcss2 a été installé avec succès."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "You can now play more DVD videos on your PC."
+msgstr "Vous pouvez maintenant lire davantage de DVD vidéo sur votre PC."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Close"
+msgstr "Fermer"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation failed"
+msgstr "Échec de l'installation"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "An error occurred during installation."
+msgstr "Une erreur est survenue pendant l'installation."
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Please try again."
+msgstr "Veuillez réessayer."

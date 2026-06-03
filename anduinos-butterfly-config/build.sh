@@ -11,9 +11,12 @@
 
 set -euo pipefail
 
+umask 0022
+
 PACKAGE="anduinos-butterfly-config"
 BUILD_DIR="${PACKAGE}-build"
 SOURCE_DIR="$(cd "$(dirname "$0")" && pwd)"
+VERSION=$(head -1 "${SOURCE_DIR}/changelog" | grep -oP '\(\K[^)]+')
 
 # Cleanup previous build
 echo "[build] Cleaning up previous build..."
@@ -91,7 +94,7 @@ find "$BUILD_DIR" -type d -exec chmod 755 {} \;
 find "$BUILD_DIR" -name "*.sh" -exec chmod 755 {} \;
 chmod 755 "$BUILD_DIR/DEBIAN/postinst"
 
-dpkg-deb --build "$BUILD_DIR" "${PACKAGE}.deb"
+dpkg-deb --build "$BUILD_DIR" "${PACKAGE}_${VERSION}.deb"
 
-echo "[build] Done: ${PACKAGE}.deb
-"
+echo "[build] Done: ${PACKAGE}_${VERSION}.deb"
+

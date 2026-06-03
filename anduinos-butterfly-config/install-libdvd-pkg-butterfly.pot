@@ -1,0 +1,96 @@
+# Translation template for install-libdvd-pkg-butterfly
+# Copyright (C) 2026  Joyce MARKOLL <contact@orditux.org>
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: install-libdvd-pkg-butterfly 1.0\n"
+"Report-Msgid-Bugs-To: contact@orditux.org\n"
+"POT-Creation-Date: 2026-06-03 10:52:23 +0200\n"
+"PO-Revision-Date: 2026-06-03 10:52:23 +0200\n"
+"Last-Translator: Joyce MARKOLL <contact@orditux.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 is already installed. Nothing to do."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvd-pkg installation"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "This program will install the libdvdcss2 library."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "An active internet connection is required."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to continue?"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Install"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Later"
+msgstr ""
+
+[200~#: install-libdvd-pkg-butterfly.sh
+msgid "The following required packages are missing:"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Do you want to install them now?"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Cancel"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation in progress, please wait..."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installing missing dependencies, please wait..."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Configuring libdvdcss2, please wait..."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation complete"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "libdvdcss2 has been successfully installed."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "You can now play more DVD videos on your PC."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Close"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Installation failed"
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "An error occurred during installation."
+msgstr ""
+
+#: install-libdvd-pkg-butterfly.sh
+msgid "Please try again."
+msgstr ""
